@@ -1,0 +1,99 @@
+ .game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+div .card {
+    border-radius: 25px !important;
+   
+}
+
+div .card-header, div .card-footer {
+    background-color: rgb(249, 186, 0, 0.09);
+}
+
+ div .card-header{
+    border-radius: 25px 25px 0px 0px !important;
+}
+
+div .card-body{
+padding: 1.25rem 0 1.25rem 0;
+}
+
+div .card-footer {
+    border-radius: 0px 0px 25px 25px !important;
+}
+
+p .m-0 {
+    font-size:20px;
+}
+
+#answerField {
+    color:rgb(8, 0, 98);
+    text-shadow: 1px 1px 2px rgb(0, 149, 255);
+}
+
+.btn-group{
+    display: inline !important;
+}
+
+#btnLess, #btnOver {
+    width: 100px;
+    border: 1px solid #17a2b8;
+    background: -webkit-linear-gradient(top, hsl(191, 84%, 81%), hsl(186, 100%, 50%) 90%); /*градиент цвета на кнопке*/
+    color: rgb(2, 115, 225);
+}
+
+#btnEqual {
+    width: 110px;
+    border: 1px solid #28a745;
+    background: -webkit-linear-gradient(top, hsl(119, 83%, 79%), hsl(119, 100%, 50%) 90%); /*градиент цвета на кнопке*/
+    color: rgb(12, 98, 0); 
+}
+
+ #btnLess, #btnOver, #btnEqual{
+    height: 70px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 800;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.974); 
+}  
+
+/* Эффект при нажатии */
+#btnLess:active, #btnOver:active{ 
+    width: 95px; /* Уменьшаем ширину */
+    height: 69px; /* Уменьшаем высоту */
+    box-shadow: 0 0 hsl(188, 60%, 60%); /* Уменьшаем тень */
+    border: 3px solid hsl(182, 40%, 70%); /* Уменьшаем толщину рамки */
+    background: -webkit-linear-gradient(top, hsl(191, 88%, 90%), hsl(186, 100%, 50%) 90%); /* Изменяем значения линейного градиента */
+    }
+
+#btnEqual:active {
+    width: 105px; /* Уменьшаем ширину */
+    height: 69px; /* Уменьшаем высоту */
+    box-shadow: 0 0 hsl(112, 60%, 60%); /* Уменьшаем тень */
+    border: 3px solid hsl(127, 40%, 70%); /* Уменьшаем толщину рамки */
+    background: -webkit-linear-gradient(top, hsl(115, 88%, 90%), hsl(101, 100%, 50%) 90%);
+    }
+
+#btnRetry {
+    width: 280px;
+    height: 70px;
+    border: 1px solid rgb(149, 0, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    background: -webkit-linear-gradient(top, hsl(277, 88%, 90%), hsl(286, 100%, 50%) 90%); /*градиент цвета на кнопке*/
+    color: rgb(253, 250, 255);
+    font-weight: 800;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.974);
+    
+}
+
+/* Эффект при нажатии */
+#btnRetry:active { 
+    width: 275px; /* Уменьшаем ширину */
+    height: 69px; /* Уменьшаем высоту */
+    box-shadow: 0 0 hsl(275, 60%, 60%); /* Уменьшаем тень */
+    border: 3px solid hsl(275, 40%, 70%); /* Уменьшаем толщину рамки */
+    background: -webkit-linear-gradient(top, hsl(277, 88%, 90%), hsl(286, 100%, 50%) 90%); /* Изменяем значения линейного градиента */
+    }
